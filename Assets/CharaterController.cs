@@ -19,7 +19,7 @@ public class CharaterController : MonoBehaviour
        transform.position = transform.position + (transform.forward * Input.GetAxis("Vertical"));
 
         rotation = rotation + Input.GetAxis("Mouse x");
-        transform.rotation = Quaternion.Euler(new vector3(0.0f,rotation, 0.0f));
+        transform.rotation = Quaternion.Euler(new Vector3(0.0f,rotation, 0.0f));
     }
 }
 
